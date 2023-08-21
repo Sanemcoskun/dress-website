@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Noto+Serif+Vithkuqi:wght@400;500;600&family=Poppins:wght@400;500;600;700&family=Titillium+Web:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(211, 164, 188, 0.8);
+
+}
+.navbar{
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(211, 164, 188, 0.8) ;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+    color: #fff;
+}
+
+.navbar img{
+    width: 150px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+    padding-right: 20px;
+}
+nav ul li a{
+    color:#fff;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: rgba(131, 40, 87, 0.8);
+}
+.row{
+    display:flex ;
+    margin-top: 500px;
+    position: absolute;
+    align-items: center;
+    column-gap: 40px;
+    height: 88%;
+  
+}
+.col-1,.col-2{
+    flex: 1;
+}
+h1{
+    font-size: 100px;
+}
+button{
+    display: inline-block;
+    border-radius: 50px;
+    border-color: #fff;
+    padding: 15px 25px;
+    color: #fff;
+    cursor: pointer;
+    background-color:rgba(211, 164, 188, 0.8) ;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+}
+button:hover{
+    background-color: #d16bbb;
+    color:rgba(131, 40, 87, 0.8) ;
+    border-color: rgba(131, 40, 87, 0.8);
+}
+
+.bolumler{
+    display:flex ;
+    align-items: center;
+    column-gap: 5px;
+    height: 88%;
+}
+.bolum-1,.bolum-2,.bolum-3{
+    flex:1;
+    
+}
+.bolumler img{
+    width: 150px;
+    height: 150px;
+    transition: transform 0.5s;
+}
+
+.bolumler img:hover{
+    width: 250px;
+    height: 250px;
+    cursor: pointer;
+}
+
+
+.bottom{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.shoe-img img:hover{
+    width: 250px;
+}
+
+.col-2-bottom,.bolumler{
+   flex: 1;
+   margin-top: 120px;
+}
+.col-2-bottom img{
+    transition-duration: 1s;
+
+    cursor: pointer;
+}
+.col-2-bottom img:hover{
+    transform: rotateY(180deg);
+}
+
+.desc-button , .col-2-bottom{
+    display: flex;
+    font-size: 18px;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+    margin-top: 40px;
+}
